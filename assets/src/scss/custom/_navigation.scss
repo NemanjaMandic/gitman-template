@@ -2,18 +2,43 @@ header{
 	
 
    .header-hero{
-    background: url(../../img/homepage_hero_bg_fill_mobile.jpg);
-    background-size: cover;
-    height: 400px;
+        background: url(../../img/homepage_hero_bg_fill_mobile.jpg), linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.08));
+        background-size: cover;
+        height: 400px;
+        color: #fff;
+        background-blend-mode: overlay;
    	.cta-btn{ 
     	color: #fff;
     	background-color: $primary-color;
     }
+
+    .overlay{
+        background-color: rgba(0,0,0,0);
+        background-image: -webkit-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0));
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0));
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        background: url(../../img/homepage_hero_bg_fill_mobile.jpg);
+    }
+   }
+
+   .mobile-nav-container{
+      a{
+        color: $primary-color;
+      }
+     .nav-link{
+        padding: 0.5rem 0;       
+       
+     }
+     .logo{
+        width: 75px;
+    }
+    .menu-toggler{
+        text-transform: uppercase;
+    }
    }
     
-.logo{
-	width: 125px;
-}
+
 
 .mobile-menu {
     position: absolute;
@@ -22,5 +47,9 @@ header{
     width: 100%;
     height: 100vh;
     z-index: 1;
+    opacity: 0;
+    display: none;
 }
+
+
 }
