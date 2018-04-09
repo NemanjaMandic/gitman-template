@@ -979,7 +979,7 @@ a.text-dark:hover,a.text-dark:focus{color:#1d2124 !important}
 body{text-align:center}
 ul{list-style:none}
 a:hover{text-decoration:none !important}
-header .header-hero{background:url(../../img/homepage_hero_bg_fill_mobile.jpg),-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.59)),to(rgba(0,0,0,0.08)));background:url(../../img/homepage_hero_bg_fill_mobile.jpg),-webkit-linear-gradient(rgba(0,0,0,0.59),rgba(0,0,0,0.08));background:url(../../img/homepage_hero_bg_fill_mobile.jpg),linear-gradient(rgba(0,0,0,0.59),rgba(0,0,0,0.08));background-size:cover;height:400px;color:#fff;background-blend-mode:overlay}
+header .header-hero{background:url(../../img/homepage_hero_bg_fill_mobile.jpg),-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.59)),to(rgba(0,0,0,0.08)));background:url(../../img/homepage_hero_bg_fill_mobile.jpg),-webkit-linear-gradient(rgba(0,0,0,0.59),rgba(0,0,0,0.08));background:url(../../img/homepage_hero_bg_fill_mobile.jpg),linear-gradient(rgba(0,0,0,0.59),rgba(0,0,0,0.08));background-size:cover;height:553px;color:#fff;background-blend-mode:overlay}
 header .header-hero .cta-btn{color:#fff;background-color:#b99d6b}
 header .header-hero .overlay{background-color:transparent;background-image:-webkit-linear-gradient(rgba(0,0,0,0.7),transparent);background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.7)),to(transparent));background-image:linear-gradient(rgba(0,0,0,0.7),transparent);background-size:100% 80%;background-repeat:no-repeat;background:url(../../img/homepage_hero_bg_fill_mobile.jpg)}
 header .mobile-nav-container a{color:#b99d6b}
@@ -989,6 +989,7 @@ header .mobile-nav-container .menu-toggler{text-transform:uppercase}
 header .mobile-menu{position:absolute;background:white;width:100%;height:100vh;z-index:1;opacity:0;display:none}
 .order-section{background:url(../../img/homepage_feature_module_img_full.jpg) no-repeat;background-size:cover}
 .newsletter-block .newsletter-background{background:url(../../img/newsletter_bg.jpg) no-repeat;background-size:cover;height:214px;background-position:center,bottom}
+.products-section .products-item{background:red}
 @media(min-width:576px){.container{max-width:540px}
 .col-sm{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .col-sm-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}
