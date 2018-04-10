@@ -987,8 +987,9 @@ header .mobile-nav-container .nav-link{padding:.5rem 0}
 header .mobile-nav-container .logo{width:75px}
 header .mobile-nav-container .menu-toggler{text-transform:uppercase}
 header .mobile-menu{position:absolute;background:white;width:100%;height:100vh;z-index:1;opacity:0;display:none}
-.order-section{background:url(../../img/homepage_feature_module_img_full.jpg) no-repeat;background-size:cover}
+.order-section{background:url(../../img/homepage_feature_module_img_full.jpg) no-repeat;background-size:cover;padding:123px 20px;height:500px}
 .newsletter-block .newsletter-background{background:url(../../img/newsletter_bg.jpg) no-repeat;background-size:cover;height:214px;background-position:center,bottom}
+.promo-section .style-wrapper{background-color:#efefef}
 .products-section .products-item{background:red}
 @media(min-width:576px){.container{max-width:540px}
 .col-sm{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
