@@ -1,0 +1,9 @@
+.social-icons{
+	display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+   
+    .social-icon{
+       margin-left: 15px;
+    }
+}

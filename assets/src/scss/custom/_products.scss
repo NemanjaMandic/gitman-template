@@ -1,6 +1,20 @@
 .products-section{
-
+	    padding: 24px 0px 67px 0px;
 	.products-item{
-		background: red;
+		//background: red;
+		.product-price{
+			color: $primary-color;
+		}
+	}
+
+	.cta-btn{
+		//background: blue;
+		color: $primary-color;
+		border: 1px solid;
+		padding: 12px 50px;
+		&:hover{
+			background: blue;
+			color: #fff;
+		}
 	}
 }
