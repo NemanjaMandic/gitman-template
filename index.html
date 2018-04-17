@@ -13,7 +13,75 @@
 <body id="home" class="homepage">
 	
 	<header>
-		<nav class="navbar d-md-none mobile-nav-container" style="background: red;">
+        
+        <!-- DISPLAY ON LARGE SCREENS -->
+        <nav class="navbar d-none d-lg-flex navbar-expand-md  desktop-nav">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+	            <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Shop
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <div class="dropdown-container d-flex">
+		          	<div class="dropdown-item">
+		          		<div class="thumbnail-wrapper">
+		          			<img src="assets/img/shirts_collection_dropdown.jpg" class="img-fluid">
+		          		</div>
+		          		  <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <a class="dropdown-item" href="#">Something else here</a>
+		          	</div>
+		          	<div class="dropdown-item">
+		          		<div class="thumbnail-wrapper">
+		          			<img src="assets/img/menu_ties_dropdown.jpg" class="img-fluid">
+		          		</div>
+		          		<h1>Ovde neki kurac</h1>
+		          	</div>
+		          </div>
+		        </div>
+		      </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">Made to order</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        
+        <a class="logo navbar-brand mx-auto" href="#">
+			 	<img class="img-fluid" src="assets/img/logo.png" />
+			 </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Heritage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Style & fit</a>
+            </li>
+            <li class="nav-item border-left">
+                
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sign in</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#"><i class="fas fa-suitcase"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+		<!-- DISPLAY O SMALL SCREENS -->
+		<nav class="navbar d-lg-none mobile-nav-container" style="background: red;">
 			<div class="container">
 				<a class="nav-link" href="#"><i class="fas fa-search"></i>
 
@@ -73,7 +141,7 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-6">
+				<div class="col-12 col-sm-6 col-md-4">
 					<div class="products-item">
 					<img src="assets/img/shirt1.jpg" class="img-fluid" />
 
@@ -86,7 +154,7 @@
 				</div>
 				</div>
 
-			<div class="col-12 col-sm-6">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="products-item">
 				<img src="assets/img/shirt2.jpg" class="img-fluid"/>
 
@@ -98,7 +166,7 @@
 			</div>
 			</div>
 
-			<div class="col-12 col-sm-6">
+			<div class="col-12 col-sm-6 col-md-4">
 				<div class="products-item">
 				<img src="assets/img/shirt3.jpg" class="img-fluid"/>
 
@@ -111,7 +179,7 @@
 			</div>
 			</div>
 
-			<div class="d-none d-sm-block col-sm-6">
+			<div class="d-none d-sm-block col-sm-6 col-md-4">
 				<div class="products-item">
 
 				<img src="assets/img/tie1.jpg" class="img-fluid" />
@@ -125,7 +193,7 @@
 			</div>
 			</div>
 
-			<div class="d-none d-sm-block col-sm-6">
+			<div class="d-none d-sm-block col-sm-6 col-md-4">
 				<div class="products-item">
 				<img src="assets/img/tie2.jpg" class="img-fluid" />
 
@@ -139,7 +207,7 @@
 		
 			</div>
 
-		   <div class="d-none d-sm-block col-sm-6">
+		   <div class="d-none d-sm-block col-sm-6 col-md-4">
 		   	<div class="products-item">
 				<img src="assets/img/tie3.jpg" class="img-fluid" />
 
@@ -174,7 +242,7 @@
 
 	<section class="container-fluid promo-section">
 		<div class="row">
-		<div class="col-12 style-wrapper">
+		<div class="col-12 col-md style-wrapper">
 
 			<div class="content-wrapper">
 				<div class="image-wrapper">
@@ -186,7 +254,7 @@
 			</div>
 
 		</div>
-		<div class="col-12 heritage-wrapper">
+		<div class="col-12 col-md heritage-wrapper">
 			
 			<div class="content-wrapper">
 				<div class="image-wrapper">
@@ -206,11 +274,11 @@
 		<div class="newsletter-background">
 		<div class="container">
 		<div class="row">
-		<div class="col-12">
+		<div class="col-12 col-md">
 			<h4>GET THE LATEST</h4>
 			<p>Join our mailing list to stay up-to-date on new arrivals, promotions and all things Gitman.</p>
 		</div>
-		<div class="col-12">
+		<div class="col-12 col-md">
 	    <div class="input-group">
 	      <input type="text" class="form-control" placeholder="Email Address">
 	      <span class="input-group-btn">

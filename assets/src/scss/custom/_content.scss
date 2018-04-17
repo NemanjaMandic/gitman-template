@@ -42,6 +42,7 @@
 	    .form-control{
 	    	border-radius: 0;
 	    	border-right-color: #fff;
+	    	height: 48px;
 	    	&:focus{
 	    		box-shadow: 0 0 50px rgba(0,0,0,0.75);
 	    	}
@@ -51,6 +52,7 @@
 		    background-color: #fff;
 		    border-color: #fff;
 		    border-radius: 0;
+		    height: 48px;
 	    }
     
 	}

@@ -1,6 +1,30 @@
 header{
 	
+  position: relative;
+   .desktop-nav{
+    background: blue !important;
 
+    .border-left{
+      border-left: 1px solid $primary-color !important;
+      height: 30px;
+      margin-top: 7px;
+    }
+    .nav-link{
+      color: #2b2b2b !important;
+      font-weight: bold;
+
+
+    }
+
+    .dropdown{
+
+        &:hover{
+          >.dropdown-menu {
+            display: block;
+          }
+        }
+      }
+   }
    .header-hero{
         background: url(../../img/homepage_hero_bg_fill_mobile.jpg), linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.08));
         background-size: cover;
@@ -8,6 +32,12 @@ header{
         color: #fff;
         background-blend-mode: overlay;
         padding: 76px 10px;
+        @include media-breakpoint-up(lg){
+          position: absolute;
+          width: 100%;
+          top: 0;
+          z-index: -1;
+        }
        	.cta-btn{ 
         	color: #fff;
         	background-color: $primary-color;

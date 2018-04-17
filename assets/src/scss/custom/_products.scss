@@ -1,5 +1,8 @@
 .products-section{
-	    padding: 24px 0px 67px 0px;
+	 padding: 24px 0px 67px 0px;
+     @include media-breakpoint-up(lg){
+     
+    }
 	.products-item{
 		//background: red;
 		.product-price{
