@@ -83,5 +83,11 @@ header{
     display: none;
 }
 
+.dropdown-menu{
+  background-color: red;
 
+  .thumbnail-wrapper{
+    width: 165px;
+  }
+}
 }
