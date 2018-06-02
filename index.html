@@ -26,7 +26,7 @@
 		          <div class="dropdown-container d-flex">
 		          	<div class="dropdown-item">
 		          		<div class="thumbnail-wrapper">
-		          			<img src="assets/img/shirts_collection_dropdown.jpg" class="img-fluid">
+		          			<a href="#"><img src="assets/img/shirts_collection_dropdown.jpg" class="img-fluid"></a>
 		          		</div>
 		          		  <a class="dropdown-item" href="www.facebook.com">Shirts</a>
 				          <a class="dropdown-item" href="#">Classic</a>
@@ -38,7 +38,9 @@
 		          	</div>
 		          	<div class="dropdown-item">
 		          		<div class="thumbnail-wrapper">
-		          			<img src="assets/img/menu_ties_dropdown.jpg" class="img-fluid">
+		          			<a href="#">
+		          				<img src="assets/img/menu_ties_dropdown.jpg" class="img-fluid">
+		          			</a>
 		          		</div>
 		          		 <a class="dropdown-item" href="#">ACCESSORIES</a>
 				            <a class="dropdown-item" href="#">Ties</a>
@@ -90,11 +92,17 @@
 		<!-- DISPLAY O SMALL SCREENS -->
 		<nav class="navbar d-lg-none mobile-nav-container" style="background: red;">
 			<div class="container">
-				<a class="nav-link" href="#"><i class="fas fa-search"></i>
+				<ul class="social-icons-nav">
+					<li>
+					<a class="nav-link" href="#"><i class="fas fa-search"></i>
 
 
-</a>
-				<a class="nav-link" href="#"><i class="fas fa-suitcase"></i></a>
+					</a>
+						</li>			
+						<li>
+							<a class="nav-link" href="#"><i class="fas fa-suitcase"></i></a>
+						</li>
+				</ul>
 						<!-- <ul>
 				<li>
 					<a href="#">GitmanBros Logo</a>
@@ -149,7 +157,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-sm-6 col-md-4">
+					
+					<a href="#" onclick="alert('Kosuljeee')" class="wraper-link">
 					<div class="products-item">
+						
 					<img src="assets/img/shirt1.jpg" class="img-fluid" />
 
 					<p class="product-text">
@@ -158,7 +169,13 @@
 					</p>
 
 					<p class="product-price">$155</p>
+					
+
 				</div>
+				<div class="product-bg-overlay">
+						<a href="#" class="quick-view-link"  onclick="alert('quick drkica')">Quick View</a>
+				</div>
+			</a>
 				</div>
 
 			<div class="col-12 col-sm-6 col-md-4">
@@ -324,15 +341,17 @@
 
 	</footer>
 	<!-- scripts -->
-	<script src="assets/src/js/vendor/jquery-3.3.1.min.js"></script>
+	<script src="assets/src/js/vendor/jquery.min.js"></script>
   	<script src="assets/src/js/vendor/popper.min.js"></script>
     <script src="assets/src/js/vendor/bootstrap.bundle.min.js"></script>
+     <script src="assets/src/js/custom/custom.js"></script>
 
-	<script src="../dist/js/vendors.js"></script>
-	<script src="../dist/js/custom.js"></script>
+	<!--<script src="assets/dist/js/vendors.js"></script>
+	 <script src="assets/dist/js/custom.js"></script> ovo ces posle u wp temi dodati-->
 
 	 <script defer src="assets/src/scss/vendor/fontawesome/js/fontawesome-all.min.js"></script>
     
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.0/src/js.cookie.min.js"></script>
 
 
 </body>
