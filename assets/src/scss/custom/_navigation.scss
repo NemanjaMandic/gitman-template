@@ -3,7 +3,7 @@ header{
   position: relative;
    .desktop-nav{
      background: transparent !important;
-
+     z-index: 9;
     .border-left{
       border-left: 1px solid $primary-color !important;
       height: 30px;
@@ -28,6 +28,13 @@ header{
             display: block;
           }
         }
+
+        .dropdown-item{
+           &:active{
+           
+              background-color: transparent !important;
+           }
+        }
       }
 
       
@@ -43,7 +50,7 @@ header{
           position: absolute;
           width: 100%;
           top: 0;
-          z-index: -1;
+         // z-index: -1;
         }
        	.cta-btn{ 
         	color: #fff;

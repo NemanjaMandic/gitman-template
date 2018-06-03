@@ -12,3 +12,13 @@ a{
 		text-decoration: none !important;
 	}
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: $primary-hover;
+}
+
+::selection {
+    color: #fff; 
+    background: $primary-hover;
+}
