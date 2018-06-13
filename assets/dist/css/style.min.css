@@ -998,12 +998,13 @@ header .mobile-nav-container a{color:#b99d6b}
 header .mobile-nav-container .nav-link{padding:.5rem 0}
 header .mobile-nav-container .logo{width:75px}
 header .mobile-nav-container .menu-toggler{text-transform:uppercase}
-header .mobile-menu{position:absolute;background:white;width:100%;height:100vh;z-index:1;opacity:0;display:none}
 header .dropdown-menu{background-color:#fff;position:absolute;top:37px;left:-1px;border-top:0;border-top-left-radius:0;border-top-right-radius:0}
 header .dropdown-menu a{-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
 header .dropdown-menu a:hover{color:#b99d6b}
 header .dropdown-menu .thumbnail-wrapper{width:165px;background-color:black;-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}
 header .dropdown-menu .thumbnail-wrapper a:hover{opacity:.6}
+.mobile-nav-modal .modal-dialog{max-width:100% !important;height:100%;padding:0;margin:0;background-color:red}
+.mobile-nav-modal .modal-dialog .modal-content{border-radius:0 !important;height:100%}
 .order-section{background:url(../../img/homepage_feature_module_img_full.jpg),-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.84)),to(rgba(0,0,0,0.26))),no-repeat;background:url(../../img/homepage_feature_module_img_full.jpg),-webkit-linear-gradient(rgba(0,0,0,0.84),rgba(0,0,0,0.26)),no-repeat;background:url(../../img/homepage_feature_module_img_full.jpg),linear-gradient(rgba(0,0,0,0.84),rgba(0,0,0,0.26)),no-repeat;background-size:cover;padding:123px 20px;height:500px;background-blend-mode:overlay}
 .order-section .category{color:#b99d6b}
 .order-section .title{color:#fff;margin-bottom:22px;letter-spacing:5px}

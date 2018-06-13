@@ -112,19 +112,13 @@
 			 	<img class="img-fluid" src="assets/img/logo.png" />
 			 </a>
 			 <!-- Toggler/collapsibe Button -->
-			  <a href="#" class="menu-toggler">Menu</a>
-			<!-- <ul>
-				<li><a href="#">HERITAGE</a></li>
-				<li><a href="#">STYLE & FIT</a></li>
-				<li><a href="#"> | </a></li>
-				<li><a href="#">SIGN IN</a></li>
-				
-			</ul> -->
+			  <a href="#" class="menu-toggler" data-toggle="modal" data-target=".bd-example-modal-lg">Menu</a>
+			
 
 		</div>
 		</nav>
 
-		<nav class="mobile-menu">
+		<!-- <nav class="mobile-menu">
 			<ul>
 				<li><a href="">Shop</a></li>
 				<li><a href="">Made to order</a></li>
@@ -133,7 +127,7 @@
 				<li><a href="">Style & fit</a></li>
 				<li><a href="">Sign in</a></li>
 			</ul>
-		</nav>
+		</nav> -->
        <div class="header-hero">
 		<div class="container text-center">
 			<h1 class="text-center">40th Anniversary Collection</h1>
@@ -389,6 +383,38 @@
     
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.0/src/js.cookie.min.js"></script>
 
+<!-- Large modal -->
 
+
+<div class="modal mobile-nav-modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <a href="#" class="" data-dismiss="modal">Close Menu</a>
+
+       <nav class="modal-nav">
+       	<ul>
+	       	<li><a data-toggle="collapse" href="#collapseExample" role="button">Shop</a>
+	       		<div class="collapse" id="collapseExample">
+	       			<ul>
+	       				<li><a href="#">Uga</a></li>
+	       				<li><a href="#">Uga</a></li>
+	       				<li><a href="#">BUga</a></li>
+	       			</ul>
+	       			<ul>
+	       				<li><a href="#">Uga</a></li>
+	       				<li><a href="#">Uga</a></li>
+	       				<li><a href="#">BUga</a></li>
+	       			</ul>
+	       		</div>
+	       	</li>
+	       	<li><a href="#">Made To Order</a></li>
+	       	<li><a href="#">Heritage</a></li>
+	       	<li><a href="#">Style & Fit</a></li>
+	       	<li><a href="#">Sign In</a></li>
+       </ul>
+       </nav>
+    </div>
+  </div>
+</div>
 </body>
 </html>
