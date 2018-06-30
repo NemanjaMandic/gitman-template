@@ -1,0 +1,30 @@
+#quickViewModal{
+.btn-group{
+	flex-wrap: wrap;
+		 > .btn{
+		border-radius: 0px !important;
+		background-color: transparent;
+		color: $body-color;
+	    margin-right: 5px;
+		&.btn-secondary{
+			&:focus,
+			&.focus{
+				background-color: $primary-color;
+				color: #fff;
+				box-shadow: none;
+			}
+		}
+		
+	}
+	}
+   
+	.fit-options{
+
+	}
+
+	.collar-options{
+		.btn{
+			margin-top: 5px;
+		}
+	}
+}
