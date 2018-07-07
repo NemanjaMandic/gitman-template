@@ -6,25 +6,121 @@
 		background-color: transparent;
 		color: $body-color;
 	    margin-right: 5px;
+		// &.btn-secondary{
+		// 	&:focus,
+		// 	&.focus{
+		// 		background-color: $primary-color;
+		// 		color: #fff;
+		// 		box-shadow: none;
+		// 	}
+		// }
+		
+	}
+	}
+   
+	.fit-options{
+	.btn-group{
+	
+		 > .btn{
 		&.btn-secondary{
 			&:focus,
-			&.focus{
+			&.focus,
+			&.active{
 				background-color: $primary-color;
 				color: #fff;
 				box-shadow: none;
 			}
 		}
 		
+	  }
 	}
-	}
-   
-	.fit-options{
-
+		text-align: left;
+		@include media-breakpoint-up(lg){
+			background-color: yellow;
+			width: 65%;
+			margin: 0 auto;
+			
+		}
 	}
 
 	.collar-options{
+		.btn-group{
+	
+		 > .btn{
+		&.btn-secondary{
+			&:focus,
+			&.focus,
+			&.active{
+				background-color: $primary-color;
+				color: #fff;
+				box-shadow: none;
+			}
+		}
+		
+	  }
+	}
+		text-align: left;
+		@include media-breakpoint-up(lg){
+			background-color: green;
+			width: 65%;
+			margin: 0 auto;
+		}
 		.btn{
 			margin-top: 5px;
 		}
 	}
+	.sleeve-options {
+	  .btn-group{
+	
+		 > .btn{
+		&.btn-secondary{
+			&:focus,
+			&.focus,
+			&.active{
+				background-color: $primary-color;
+				color: #fff;
+				box-shadow: none;
+			}
+		}
+		
+	  }
+	}
+      text-align: left;
+   }
+   .monogram-options {
+   	.btn-group{
+	
+		 > .btn{
+		&.btn-secondary{
+			&:focus,
+			&.focus,
+			&.active{
+				background-color: $primary-color;
+				color: #fff;
+				box-shadow: none;
+			}
+		}
+		
+	  }
+	}
+    text-align: left;
+   }
+   .quantity-options {
+   	.btn-group{
+	
+		 > .btn{
+		&.btn-secondary{
+			&:focus,
+			&.focus,
+			&.active{
+				background-color: $primary-color;
+				color: #fff;
+				box-shadow: none;
+			}
+		}
+		
+	  }
+	}
+    text-align: left;
+  }
 }
